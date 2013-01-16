@@ -4645,7 +4645,7 @@ body {
 body {
   margin: 0px;
   padding: 0px;
-  background: #fff;
+  background: #000000;
   font-family: Arial, sans-serif;
 }
 h1,
@@ -4709,6 +4709,7 @@ hgroup a:hover {
   top: 10px;
   padding: 5px;
   background: url(../images/fs_img_g_bg.png);
+  display: none;
 }
 #toolbar img {
   border: none;
@@ -4716,14 +4717,14 @@ hgroup a:hover {
 #img_title {
   position: fixed;
   z-index: 3;
-  right: 10px;
-  bottom: 60%;
+  left: 10px;
+  top: 460px;
   padding: 10px;
   background: url(../images/fs_img_g_bg.png);
   color: #FFF;
   font-family: Arial, sans-serif;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 23.9px;
   letter-spacing: 1px;
 }
 #bg {
