@@ -1,0 +1,376 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>EISGLUT V2</title>
+<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen"/>
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+<link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script src="scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="scripts/jquery.mousewheel.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="scripts/pop-ups.js"></script>
+<script type="text/javascript" src="scripts/nav.js"></script>
+</head>
+<body>
+<hgroup>
+ <div><a href="/"><img src="images/logo.png" title="EISGLUT 2013" alt="EISGLUT 2013" /></a></div>
+</hgroup>
+
+
+
+<nav>
+  <ul id="menu" class="menu">
+
+    <!-- ABOUT -->
+    <li> 
+      <a href="#" id="about"> 
+        <img src="images/1_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">&Uuml;ber Uns</span> 
+            <span class="descr">Die Macher</span> 
+          </span> 
+      </a> 
+    </li>
+
+    <!-- KOLLEKTION -->
+    <li> 
+      <a href="#" id="Kollektion"> 
+        <img src="images/2_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">Kollektion</span> 
+            <span class="descr">2012 / 2013</span> 
+          </span> 
+      </a> 
+    </li>
+
+    <!-- B2B -->
+    <li> 
+      <a href="#" id="B2b"> 
+        <img src="images/2_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">B2B-Bereich</span> 
+            <span class="descr">H&auml;ndler-Shop</span> 
+          </span> 
+      </a> 
+    </li>
+
+    <!-- NEWS -->
+    <li> 
+      <a href="#" id="News"> 
+        <img src="images/3_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">News</span> 
+            <span class="descr">Alles was z&auml;hlt</span> 
+          </span> 
+      </a> 
+    </li>
+
+    <!-- SALES -->
+    <li> 
+      <a href="#" id="Sales"> 
+        <img src="images/3_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">Sales Team</span> 
+            <span class="descr">Einfach gut beraten!</span> 
+          </span> 
+      </a> 
+    </li>
+
+    <!-- CONTACT -->
+    <li> 
+      <a href="#" id="contact"> 
+        <img src="images/4_menu.jpg" alt=""/> 
+          <span class="active"></span> 
+          <span class="wrap"> 
+            <span class="link">Kontakt</span> 
+            <span class="descr">Wir freuen uns!</span> 
+          </span> </a> </li>
+  </ul>
+</nav>
+
+
+
+
+
+<section id="bg">
+  <section id="overlay"></section>
+  <a href="#" class="nextImageBtn" title="next"></a><a href="#" class="prevImageBtn" title="previous"></a><img src="images/gallery/1.jpg" alt="EISGLUT 2013" title="EISGLUT 2013" id="bgimg" /></section>
+
+
+
+
+<div id="preloader"><img src="images/ajax-loader_dark.gif" width="32" height="32" alt="" /></div>
+<div id="img_title"></div>
+<div id="toolbar"><a href="#" title="Maximize" onClick="ImageViewMode('full');return false"><img src="images/toolbar_fs_icon.png" width="50" height="50" alt="" /></a></div>
+<div id="thumbnails_wrapper">
+  <div id="outer_container">
+    <div class="thumbScroller">
+      <div class="container">
+        <div class="content">
+          <div><a href="images/gallery/1.jpg"><img src="images/gallery/1_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/2.jpg"><img src="images/gallery/2_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/3.jpg"><img src="images/gallery/3_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/4.jpg"><img src="images/gallery/4_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/5.jpg"><img src="images/gallery/5_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/6.jpg"><img src="images/gallery/6_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/7.jpg"><img src="images/gallery/7_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/2.jpg"><img src="images/gallery/2_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/3.jpg"><img src="images/gallery/3_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/4.jpg"><img src="images/gallery/4_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/5.jpg"><img src="images/gallery/5_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+        <div class="content">
+          <div><a href="images/gallery/6.jpg"><img src="images/gallery/6_thumb.jpg" title="EISGLUT 2013" alt="EISGLUT 2013" class="thumb" /></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- UEBER UNS -->
+<article id="popupAbout" class="popupAbout">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupAboutClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Herzlich Wilkommen!</h1>
+        <img src="images/1_menu.jpg" alt="" class="image"/>
+        <p>Passend zum Winter und zur kalten Zeit können Sie sich wieder mit den neuesten Trendfarben und Styles eindecken. Unsere Mützenfamilie ist in der Zwischenzeit weiter gewachsen, um Ihnen eine noch größere und vielfältigere Auswahl zu bieten. Mit unserem Mix &amp; Match Programm gibt es unzählige Kombinationsmöglichkeiten: Mützen, Schals, Loop Schals und Schalkragen können immer wieder neu kombiniert und in Szene gesetzt werden.</p>
+        <p>Durch die große Farbpalette in den Trendfarben der nächsten Saison findet sicher jeder die passenden Mützen zu seinem Outfit. Und die optimale Passform und ein weiches Innenband aus Fleece überzeugen schon bei der ersten Anprobe.</p>
+        <p>Neu im Programm sind unsere Big Size Größen für Herren. Viele unseren Styles erhalten Sie übrigens auch in Kids Size.</p>
+        <p>Alle Eisglut Mützen haben eines gemeinsam: Sie werden alle in unserem Werk in Bobingen produziert. Das heißt, alle Arbeitsschritte von der Idee bis zum fertigen Produkt: Produktentwicklung, Design, Strickerei, Zuschnitt, Näherei, Qualitätskontrolle und Versand.  Alles unter einem Dach unter absolut transparenten und einwandfreien Produktionsbedingungen!</p>
+        <p>Die Herkunft von Textilien nimmt einen immer wichtigeren Stellenwert ein. Dies zeigt auch das stark gestiegene Interesse der Verbraucher. Made in Germany ist nicht nur gut für Mensch und Umwelt, sondern spiegelt sich auch in guten Verkaufszahlen wieder.</p>
+        <p>All unsere Produkte entstehen unter hohen Umweltschutzauflagen bei der Produktion. Wir produzieren mit Strom aus erneuerbaren Energien und ermöglichen Ihnen durch den Standort Deutschland kurze Transportwege und damit pünktliche Lieferzeiten.</p>
+        <p>Auch unsere Materialien wählen wir sorgfältig und prüfen sowohl die Qualität wie die Herkunft gewissenhaft. Wir verwenden nur hochwertige und schadstofffreie Materialien von führenden europäischen Herstellern. Diese entsprechen alle dem Oekotex Standard 100.</p>
+        <p>Und all das bekommen Sie zu einem optimalen Preis-Leistungsverhältnis in absolut verkaufsstarken Hauptpreislagen von uns.</p>
+        <p>Zudem möchten wir Sie noch auf unser sehr erfolgreiches NOS Programm hinweisen, das inzwischen auch komfortabel über unseren B2B Händlershop geordert werden kann.</p>
+        <p>Um unsere Produkte auch wirkungsvoll in Szene zu setzen, bieten wir Ihnen den optimalen Point of Sale. Fragen Sie einfach nach unseren hochwertigen Displays und Abverkaufshilfen.</p>
+        <p>Wir hoffen, auch Sie sind von der neuen Eisglut Kollektion begeistert. Aufsetzen und wohlfühlen! Dafür steht EISGLUT.</p>
+        <p>Eine kuschlige Winterzeit wünscht Ihnen allen Familie Langer und das ganze Eisglut Team.</p>
+        <p>Wir freuen uns auf eine spannende Wintersaison 2013</p>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- KOLLEKTION -->
+<article id="popupKollektion" class="popupKollektion">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupKollektionClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Kollektion</h1>
+        <h2>Animation Studios(2005-2011)</h2>
+        <p class="nomargin"><img src="images/elegant-press.png" alt="" class="image"/>Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis. <br>
+        </p>
+        <div class="border"></div>
+        <h2>Micro Computers(2000-2005)</h2>
+        <p class="nomargin"><img src="images/elegant-press.png" alt="" class="image"/>Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis.<br />
+        </p>
+        <div class="border"></div>
+        <h2>Software Company(1995-2000)</h2>
+        <p><img src="images/elegant-press.png" alt="" class="image"/>Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci. Phasellus consectetuer vestibulum elit. Aenean tellus metus, bibendum sed, posuere ac, mattis non, nunc. Vestibulum fringilla pede sit amet augue. In turpis. Pellentesque posuere. Praesent turpis. Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus. Donec elit libero, sodales nec, volutpat a, suscipit non, turpis. Nullam sagittis.<br />
+        </p>
+        <div class="border"></div>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- KONTAKT -->
+<article id="popupContact" class="popupContact">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupContactClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Kontakt</h1>
+        <p>Wir freuen uns auf Ihre Nachricht!</p>
+        <form method="post">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required placeholder="Name" />
+          <label for="name">Betreff:</label>
+          <input type="text" name="subject" id="subject" required placeholder="Betreff" />
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" id="email" required placeholder="email@tld.com" />
+          <label for="message">Nachricht:</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="submit" value="Send Message" />
+        </form>
+        <br />
+        <!--<iframe width="425" height="300" class="map" src="http://maps.google.com/maps?hl=en&amp;q=701+first+ave+sunnyvale+ca&amp;ie=UTF8&amp;hq=&amp;hnear=701+1st+Ave,+Sunnyvale,+California+94089&amp;z=14&amp;ll=37.416883,-122.026022&amp;output=embed"></iframe>-->
+        <div id="social-network"> <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a> <a href="#" target="_blank"><img src="images/flickr.png" alt="Flicker" /></a> <a href="#" target="_blank"><img src="images/linkedin.png" alt="Linkedin" /></a> <a href="#" target="_blank"><img src="images/myspace.png" alt="Myspace" /></a> <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a> </div>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- B2B -->
+<article id="popupB2b" class="popupB2b">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupB2bClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>B2B-Bereich</h1>
+        <h2>Beratung</h2>
+        <p class="nomargin">Wir legen bei der Entwicklung unserer Produkte sehr viel Wert auf Technologie, technische Details und Materialmix.</p>
+        <p>Damit unsere Kunden das für sie richtige Produkt zu finden, sollten sie sich von einem Fachpersonal beraten lassen - Deshalb schulen wir regelmäßig unsere Fachhändler und deren Verkäufer.
+        </p>
+        <div class="border"></div>
+        <h2>Händler-Shop</h2>
+        <p>Nutzen Sie den Service des neuen Ziener Online-Shops und bestellen Sie schnell und einfach Ihre gewünschten Produkte. Dieser Bestell-Service steht nur dem Eisglut Fachhändler zur Verfügung!</p>
+        <a href="http://139.2.182.132/Langer/Login.action" class="btn btn-primary btn-large">Zum Händlershop</a>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- NEWS -->
+<article id="popupNews" class="popupNews">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupNewsClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>News</h1>
+        <h2>Lorem ipsum</h2>
+        <div class="date"><span class="day">24</span> <span class="month">May</span> <span class="year">2011</span> </div>
+        <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+        <div class="border"></div>
+        <h2>Dolor sit amet</h2>
+        <div class="date"><span class="day">22</span> <span class="month">May</span> <span class="year">2011</span> </div>
+        <p>Consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem.</p>
+        <div class="border"></div>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- SALES -->
+<article id="popupSales" class="popupSales">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupSalesClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Sales Team</h1>
+        <h2>Deutschland</h2>
+<h3>Bayern, Baden-Württemberg, Brandenburg Süd,  Sachsen, Thüringen</h3>
+
+<p><strong>CICERO GmbH Vertriebsagentur &amp; Key Account Management </strong><br />M,O,C, - Raum A 225 b, Lilienthalallee 40, D 80939 München<br />Telefon: +49 (0)89 3244449 / Fax: +49 (0)89 3227537</p>
+<p><strong>Oliver Bovet</strong> Mobil: +49 (0)170 9637656 / Mail: <a class="mail-link" href="mailto:oliverbovet@googlemail.com?subject=Anfrage">oliverbovet@googlemail.com</a><strong> </strong><br /> <strong>Christoph Wolfinger</strong> Mobil: +49 (0)175 5416689 / Mail: <a class="mail-link" href="mailto:c.wolfinger@arcor.de?subject=Anfrage">c.wolfinger@arcor.de</a></p>
+
+<h3>Schleswig-Holstein, Hamburg, Niedersachsen, Bremen</h3>
+<p><strong>Thomas Steinert</strong><br /> Büntloh 5, D 25462 Rellingen<br /> Telefon: +49 (0)4101 841203 / Fax: +49 (0)4101 841205 / Mobil: +49 (0)172 3776637 / Mail: <a class="mail-link" href="mailto:sport@steinert24.de?subject=Anfrage">sport@steinert24.de</a></p>
+
+<h3>Hessen, Rheinland-Pfalz, Saarland, Luxemburg</h3>
+<p><strong>Agentur Canis</strong><br />HDM3 / Raum 848, Frankfurter Str. 70-72, D 65760 Eschborn<br />Telefon: +49 (0)6196 591127 / Fax: +49 (0)6196 481899<br /><br /><strong>Jochen Canis</strong> Mobil: +49 (0)173 4234905 / Mail: <a class="mail-link" href="mailto:jochen@canis-web.de?subject=Anfrage">jochen@canis-web.de</a></p>
+
+<h3>Mecklenburg-Vorpommern, Berlin, Sachsen-Anhalt, Brandenburg Nord</h3>
+<p><strong>Harald Püschel / DEAL Handelsvertretung</strong><br />Südring 22 c, 31177 Borsum<br />Mobil: +49 (0)171 4122003 / Mail: <a class="mail-link" href="mailto:harrypue@gmx.de?subject=Anfrage">harrypue@gmx.de</a></p>
+
+<h3>Nordrhein-Westfalen</h3>
+
+<p><strong>Karlheinz Roleff, Roleff &amp; Roleff GbR</strong><br />Lerchenweg 33, 40789 Monheim am Rhein<br /> <strong>EUROMODA, SPORT FASHION CENTER</strong><br /> Anton-Kux-Straße 2<br /> 2. Etage Raum C 209<br /> Telefon-Hotline: +49 (0)700 54765333 / Fax: +49 (0)2131 120852 / Mobil: +49 (0)172 9339 004<br />Mail: <a class="mail-link" href="mailto:roleff-roleff.gbr@t-online.de?subject=Anfrage">roleff-roleff.gbr@t-online.de</a></p>
+
+<h2>Österreich</h2>
+
+<p><strong>Sportagentur Victor Schupfer</strong><br />Grubmühlstrasse 2,  A 4522 Sierning<br />Telefon: +43 (0)7259 3993 / Fax: +43  (0)7259 3993 77 / Mobil: +43 (0) 676 84253844<br />Mail: <a class="mail-link" href="mailto:victor@sport-schupfer.at?subject=Anfrage">victor@sport-schupfer.at</a> / Internet: <a class="external-link" href="http://www.sport-schupfer.at">www.sport-schupfer.at</a><br /><br /><strong>Showroom und Orderrroom Brandbox Salzburg<br />Showroom Sportagentur Victor Schupfer</strong><br />Raum 3. Obergeschoss Raumnummer B 08<br />Moosfeldstrasse 1, A 5101 Bergheim/Salzburg</p>
+
+<h2>Italien</h2>
+
+<p><strong>Martin Wieser</strong><br />Widumacker 16, I-39050 Jenesien (Bozen) - Südtirol<br />Telefon: +39 (0)335 7407686 / Fax: +39 (0)471 363943<br />Mail: <a class="mail-link" href="mailto:martin.wieser@virgilio.it?subject=Anfrage">martin.wieser@virgilio.it</a></p>
+
+<h2>Schweiz</h2>
+
+<p><strong>MAKE YOUR BRAND SUCCESSFUL</strong><br />Arnaud Reinhard<br />Distributeur de marques éthiques et écologiques Rue du Temple 1, 1148 Cuarnens<br />Telefon: +41 (0)78 7368674 <br />Mail: <a class="mail-link" href="mailto:arnaud.reinhard@bluewin.ch?subject=Anfrage">arnaud.reinhard@bluewin.ch</a> / Internet: <a href="http://www.makeyourbrandsuccessful.com">www.makeyourbrandsuccessful.com</a></p>
+
+<h2>Belgien</h2>
+
+<p><strong>Scottie Sports &amp; Bike</strong><br />Weefbergstraat 2, B 3271 Averbode<br /><br /><strong>Wim Schots</strong><br />Telefon: +32 (0)13 676219 / Fax : +32 (0)13 676269<br />Mobil:  +32 (0)475 406219 / Mail: <a class="mail-link" href="mailto:wim.schots@skynet.be?subject=Anfrage">wim.schots@skynet.be</a></p>
+
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<!-- KONTAKT -->
+<article id="popupContact" class="popupContact">
+  <div class="customScrollBox">
+    <div class="container">
+      <div class="content"> <a id="popupContactClose"><img src="images/cross.png" width="20" alt="" /></a>
+        <h1>Kontakt</h1>
+        <p></p>
+        <form method="post">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" required placeholder="Name" />
+          <label for="name">Subject:</label>
+          <input type="text" name="subject" id="subject" required placeholder="Subject" />
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" required placeholder="email@example.com" />
+          <label for="message">Message:</label>
+          <textarea name="message" id="message" required></textarea>
+          <input type="submit" value="Send Message" />
+        </form>
+        <br />
+        <!--<iframe width="425" height="300" class="map" src="http://maps.google.com/maps?hl=en&amp;q=701+first+ave+sunnyvale+ca&amp;ie=UTF8&amp;hq=&amp;hnear=701+1st+Ave,+Sunnyvale,+California+94089&amp;z=14&amp;ll=37.416883,-122.026022&amp;output=embed"></iframe>-->
+        <div id="social-network"> <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a> <a href="#" target="_blank"><img src="images/flickr.png" alt="Flicker" /></a> <a href="#" target="_blank"><img src="images/linkedin.png" alt="Linkedin" /></a> <a href="#" target="_blank"><img src="images/myspace.png" alt="Myspace" /></a> <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a> </div>
+      </div>
+    </div>
+    <div class="dragger_container">
+      <div class="dragger"></div>
+    </div>
+    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
+</article>
+
+
+<script type="text/javascript" src="scripts/gallery.js"></script> 
+<script type="text/javascript" src="scripts/jquery.mCustomScrollbar.js"></script>
+</body>
+</html>
