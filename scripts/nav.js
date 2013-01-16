@@ -11,8 +11,8 @@
 					$elem.find('img')
 						 .stop(true)
 						 .animate({
-							'width':'170px',
-							'height':'170px',
+							'width':'0px',
+							'height':'0px',
 							'left':'0px'
 						 },300,'linear')
 						 .andSelf()
@@ -22,7 +22,7 @@
 						 .andSelf()
 						 .find('.active')
 					     .stop(true)
-						 .animate({'height':'170px'},300,function(){
+						 .animate({'height':'100px'},300,function(){
 						var $sub_menu = $elem.find('.box');
 						if($sub_menu.length){
 							var left = '170px';
