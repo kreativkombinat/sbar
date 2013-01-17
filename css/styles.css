@@ -5217,6 +5217,7 @@ input[type=submit] {
 }
 .food {
   font-weight: bold;
+  width: 90%;
 }
 .abstand {
   padding-bottom: 30px;
@@ -5233,6 +5234,7 @@ table {
 }
 td {
   border: 1px solid #efefef;
+  border-radius: 4px !important;
   padding: 10px;
   vertical-align: top;
 }
