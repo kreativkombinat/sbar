@@ -5054,6 +5054,9 @@ article {
   text-transform: uppercase;
   font-weight: bold;
 }
+#popupSpeisekarte h3 {
+  font-size: 21.9px;
+}
 #popupAboutClose,
 #popupSpeisekarteClose,
 #popupContactClose,
@@ -5219,10 +5222,7 @@ input[type=submit] {
 .food {
   font-weight: bold;
   width: 90%;
-  border-bottom: 10px solid #efefef;
-}
-.abstand {
-  padding-bottom: 30px;
+  font-size: 15.9px;
 }
 .vegan {
   background-image: url(../images/vegan.png);
@@ -5230,15 +5230,26 @@ input[type=submit] {
   background-position: center;
   padding: 0px 40px 15px 0px;
 }
+.ta {
+  background: #e47246;
+  color: #ffffff;
+}
 table {
   border: 0px solid #efefef;
   width: 100%;
+  border-spacing: 5px;
+  border-collapse: separate;
+}
+tr {
+  border-bottom: 0px solid #efefef;
 }
 td {
   border: 0px solid #efefef;
   border-radius: 4px !important;
   padding: 10px;
   vertical-align: top;
+  border-spacing: 5px;
+  background: #efefef;
 }
 h4 {
   background-color: #E47246;
