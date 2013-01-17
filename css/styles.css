@@ -5026,7 +5026,7 @@ article {
   text-align: left;
   font-size: 32.5px;
   letter-spacing: 1px;
-  padding: 0px 0px 20px 30px;
+  padding: 0px 0px 40px 50px;
   margin: 0;
   color: #e47246;
   text-transform: uppercase;
@@ -5093,7 +5093,7 @@ article {
 form {
   font-family: Verdana, sans-serif;
   width: 350px;
-  margin-left: 25px;
+  margin-left: 0px;
 }
 input,
 textarea {
@@ -5260,5 +5260,19 @@ body.tnx {
   -khtml-border-radius: 5px;
   border-radius: 5px;
   text-align: center;
+  text-transform: uppercase;
+}
+input[type="submit"] {
+  color: white;
+  text-transform: uppercase;
+  font-size: 20.9px;
+  background: #e47246;
+}
+textarea {
+  min-height: 100px;
+  resize: none;
+  color: #555555;
+}
+label {
   text-transform: uppercase;
 }
