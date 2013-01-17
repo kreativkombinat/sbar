@@ -18,7 +18,7 @@
 						 .andSelf()
 						 .find('.wrap')
 					     .stop(true)
-						 .animate({'top':'140px'},500,'easeOutBack')
+						 .animate({'top':'130px'},500,'easeOutBack')
 						 .andSelf()
 						 .find('.active')
 					     .stop(true)
