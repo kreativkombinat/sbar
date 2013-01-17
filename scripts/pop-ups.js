@@ -36,7 +36,7 @@
 				$("#about").click(function(){
 				$("#popupAbout").css({
 					"visibility": "visible"	});
-					disablePopupKollektion();
+					disablePopupSpeisekarte();
 					disablePopupContact();
 					disablePopupNews();
 					centerPopupAbout();
@@ -56,114 +56,58 @@
 			});
 
 
-//Kollektion
-			var popupKollektionStatus = 0;
+//Speisekarte
+			var popupSpeisekarteStatus = 0;
 			
-			function loadPopupKollektion(){
-				if(popupKollektionStatus==0){
-					$("#popupKollektion").fadeIn("slow");
-					popupKollektionStatus = 1;
+			function loadPopupSpeisekarte(){
+				if(popupSpeisekarteStatus==0){
+					$("#popupSpeisekarte").fadeIn("slow");
+					popupSpeisekarteStatus = 1;
 				}
 			}
 			
-			function disablePopupKollektion(){
-				if(popupKollektionStatus==1){
-					$("#popupKollektion").fadeOut("slow");
-					popupKollektionStatus = 0;
+			function disablePopupSpeisekarte(){
+				if(popupSpeisekarteStatus==1){
+					$("#popupSpeisekarte").fadeOut("slow");
+					popupSpeisekarteStatus = 0;
 				}
 			}
 			
-			function centerPopupKollektion(){
+			function centerPopupSpeisekarte(){
 				var windowWidth = document.documentElement.clientWidth;
 				var windowHeight = document.documentElement.clientHeight;
-				var popupKollektionHeight = $("#popupKollektion").height();
-				var popupKollektionWidth = $("#popupKollektion").width();
-				$("#popupKollektion").css({
+				var popupSpeisekarteHeight = $("#popupSpeisekarte").height();
+				var popupSpeisekarteWidth = $("#popupSpeisekarte").width();
+				$("#popupSpeisekarte").css({
 					"position": "absolute",
-					"top": windowHeight/2-popupKollektionHeight/2,
-					"left": windowWidth/2-popupKollektionWidth/2
+					"top": windowHeight/2-popupSpeisekarteHeight/2,
+					"left": windowWidth/2-popupSpeisekarteWidth/2
 				});
 			}
 			
 			
 			$(document).ready(function(){
-				$("#popupKollektion").fadeOut();
-				popupKollektionStatus = 0;
-				$("#Kollektion").click(function(){
-				$("#popupKollektion").css({
+				$("#popupSpeisekarte").fadeOut();
+				popupSpeisekarteStatus = 0;
+				$("#Speisekarte").click(function(){
+				$("#popupSpeisekarte").css({
 					"visibility": "visible"	});
 					disablePopupAbout();
 					disablePopupContact();
 					disablePopupNews();					
-					centerPopupKollektion();
-					loadPopupKollektion();
-				    $("#popupKollektion").mCustomScrollbar("vertical",400,"easeOutCirc",1.05,"auto","yes","yes",10);						
+					centerPopupSpeisekarte();
+					loadPopupSpeisekarte();
+				    $("#popupSpeisekarte").mCustomScrollbar("vertical",400,"easeOutCirc",1.05,"auto","yes","yes",10);						
 				});
-				$("#popupKollektionClose").click(function(){
-					disablePopupKollektion();
+				$("#popupSpeisekarteClose").click(function(){
+					disablePopupSpeisekarte();
 				});
 				$("#bg").click(function(){
-					disablePopupKollektion();
+					disablePopupSpeisekarte();
 				});
 				$(document).keyup(function(e){
 				if(e.keyCode === 27)
-					disablePopupKollektion();
-			});
-			});
-
-
-//B2b
-			var popupB2bStatus = 0;
-			
-			function loadPopupB2b(){
-				if(popupB2bStatus==0){
-					$("#popupB2b").fadeIn("slow");
-					popupB2bStatus = 1;
-				}
-			}
-			
-			function disablePopupB2b(){
-				if(popupB2bStatus==1){
-					$("#popupB2b").fadeOut("slow");
-					popupB2bStatus = 0;
-				}
-			}
-			
-			function centerPopupB2b(){
-				var windowWidth = document.documentElement.clientWidth;
-				var windowHeight = document.documentElement.clientHeight;
-				var popupB2bHeight = $("#popupB2b").height();
-				var popupB2bWidth = $("#popupB2b").width();
-				$("#popupB2b").css({
-					"position": "absolute",
-					"top": windowHeight/2-popupB2bHeight/2,
-					"left": windowWidth/2-popupB2bWidth/2
-				});
-			}
-			
-			
-			$(document).ready(function(){
-				$("#popupB2b").fadeOut();
-				popupB2bStatus = 0;
-				$("#B2b").click(function(){
-				$("#popupB2b").css({
-					"visibility": "visible"	});
-					disablePopupAbout();
-					disablePopupContact();
-					disablePopupNews();					
-					centerPopupB2b();
-					loadPopupB2b();
-				    $("#popupB2b").mCustomScrollbar("vertical",400,"easeOutCirc",1.05,"auto","yes","yes",10);						
-				});
-				$("#popupB2bClose").click(function(){
-					disablePopupB2b();
-				});
-				$("#bg").click(function(){
-					disablePopupB2b();
-				});
-				$(document).keyup(function(e){
-				if(e.keyCode === 27)
-					disablePopupB2b();
+					disablePopupSpeisekarte();
 			});
 			});
 
@@ -205,7 +149,7 @@
 				$("#popupNews").css({
 					"visibility": "visible"	});
 					disablePopupAbout();
-					disablePopupKollektion();					
+					disablePopupSpeisekarte();					
 					disablePopupContact();					
 					centerPopupNews();
 					loadPopupNews();
@@ -220,62 +164,6 @@
 				$(document).keyup(function(e){
 				if(e.keyCode === 27)
 					disablePopupNews();
-			});
-			});
-
-
-//Sales
-			var popupSalesStatus = 0;
-			
-			function loadPopupSales(){
-				if(popupSalesStatus==0){
-					$("#popupSales").fadeIn("slow");
-					popupSalesStatus = 1;
-				}
-			}
-			
-			function disablePopupSales(){
-				if(popupSalesStatus==1){
-					$("#popupSales").fadeOut("slow");
-					popupSalesStatus = 0;
-				}
-			}
-			
-			function centerPopupSales(){
-				var windowWidth = document.documentElement.clientWidth;
-				var windowHeight = document.documentElement.clientHeight;
-				var popupSalesHeight = $("#popupSales").height();
-				var popupSalesWidth = $("#popupSales").width();
-				$("#popupSales").css({
-					"position": "absolute",
-					"top": windowHeight/2-popupSalesHeight/2,
-					"left": windowWidth/2-popupSalesWidth/2
-				});
-			}
-			
-			
-			$(document).ready(function(){
-				$("#popupSales").fadeOut();
-				popupSalesStatus = 0;
-				$("#Sales").click(function(){
-				$("#popupSales").css({
-					"visibility": "visible"	});
-					disablePopupAbout();
-					disablePopupKollektion();
-					disablePopupNews();					
-					centerPopupSales();
-					loadPopupSales();
-				    $("#popupSales").mCustomScrollbar("vertical",400,"easeOutCirc",1.05,"auto","yes","yes",10);						
-				});
-				$("#popupSalesClose").click(function(){
-					disablePopupSales();
-				});
-				$("#bg").click(function(){
-					disablePopupSales();
-				});
-				$(document).keyup(function(e){
-				if(e.keyCode === 27)
-					disablePopupSales();
 			});
 			});
 
@@ -317,7 +205,7 @@
 				$("#popupContact").css({
 					"visibility": "visible"	});
 					disablePopupAbout();
-					disablePopupKollektion();
+					disablePopupSpeisekarte();
 					disablePopupNews();					
 					centerPopupContact();
 					loadPopupContact();
