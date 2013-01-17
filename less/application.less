@@ -367,11 +367,11 @@ article {
 }
 #popupAbout h1, #popupSpeisekarte h1, #popupContact h1, #popupNews h1 {
     text-align: left;
-    font-size: @fontSizeLarge + 5;
+    font-size: @fontSizeLarge + 15;
     letter-spacing: 1px;
     padding: 0px 0px 20px 30px;
     margin: 0;
-    color: @appRed;
+    color: @orange;
     text-transform: uppercase;
     background:url(../images/star.png) no-repeat 0px 8px;
     font-weight: bold;
@@ -573,4 +573,26 @@ td {
 h4 {
     background-color: #E47246;
     padding: 10px;
+}
+
+body.tnx  {
+    background-color: @orange;
+    background-image: url(../images/dotted.png);
+}
+
+.danke {
+    border: 0px solid red;
+    width: 960px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    font-size: @fontSizeSmall + 4;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
 }
