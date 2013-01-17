@@ -4977,19 +4977,28 @@ article {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 /* Pop Up */
+.container {
+  border: 0px solid red;
+  width: 100%;
+}
+.content {
+  border: 0px solid red;
+  padding: 0px;
+}
+.document {
+  padding: 20px;
+}
 #popupAbout,
-#popupKollektion,
+#popupSpeisekarte,
 #popupContact,
-#popupNews,
-#popupB2b,
-#popupSales {
+#popupNews {
   height: 600px;
   width: 900px;
   overflow: auto;
   background-color: #ffffff;
   border: 0px solid #cecece;
   z-index: 15;
-  padding: 20px;
+  padding: 0px;
   color: #333333;
   -webkit-box-shadow: 0px 0px 4px #000;
   -moz-box-shadow: 0px 0px 4px #000;
@@ -5004,20 +5013,16 @@ article {
   visibility: hidden;
 }
 #popupAbout p,
-#popupKollektion p,
+#popupSpeisekarte p,
 #popupContact p,
-#popupNews p,
-#popupB2b p,
-#popupSales p {
+#popupNews p {
   font-size: 14px;
   line-height: 20px;
 }
 #popupAbout h1,
-#popupKollektion h1,
+#popupSpeisekarte h1,
 #popupContact h1,
-#popupNews h1,
-#popupB2b h1,
-#popupSales h1 {
+#popupNews h1 {
   text-align: left;
   font-size: 22.5px;
   letter-spacing: 1px;
@@ -5029,11 +5034,9 @@ article {
   font-weight: bold;
 }
 #popupAbout h2,
-#popupKollektion h2,
+#popupSpeisekarte h2,
 #popupContact h2,
-#popupNews h2,
-#popupB2b h2,
-#popupSales h2 {
+#popupNews h2 {
   text-align: left;
   font-size: 17.5px;
   margin: 0;
@@ -5042,11 +5045,9 @@ article {
   font-weight: bold;
 }
 #popupAbout h3,
-#popupKollektion h3,
+#popupSpeisekarte h3,
 #popupContact h3,
-#popupNews h3,
-#popupB2b h3,
-#popupSales h3 {
+#popupNews h3 {
   text-align: left;
   font-size: 13.9px;
   margin: 0;
@@ -5054,11 +5055,9 @@ article {
   font-weight: bold;
 }
 #popupAboutClose,
-#popupKollektionClose,
+#popupSpeisekarteClose,
 #popupContactClose,
-#popupNewsClose,
-#popupB2bClose,
-#popupB2bSales {
+#popupNewsClose {
   right: 0;
   top: 15px;
   position: absolute;
@@ -5071,10 +5070,9 @@ article {
   transition: all .25s linear;
 }
 #popupAboutClose:hover,
-#popupKollektionClose:hover,
+#popupSpeisekarteClose:hover,
 #popupContactClose:hover,
-#popupNewsClose:hover,
-#popupB2bClose:hover {
+#popupNewsClose:hover {
   opacity: 1;
   -webkit-transition: all .25s linear;
   -moz-transition: all .25s linear;
@@ -5216,4 +5214,29 @@ input[type=submit] {
   -o-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
+}
+.food {
+  font-weight: bold;
+}
+.abstand {
+  padding-bottom: 30px;
+}
+.vegan {
+  background-image: url(../images/vegan.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 0px 40px 15px 0px;
+}
+table {
+  border: 1px solid #efefef;
+  width: 100%;
+}
+td {
+  border: 1px solid #efefef;
+  padding: 10px;
+  vertical-align: top;
+}
+h4 {
+  background-color: #E47246;
+  padding: 10px;
 }
