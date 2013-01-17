@@ -585,34 +585,7 @@
 </article>
 
 
-<!-- KONTAKT -->
-<article id="popupContact" class="popupContact">
-  <div class="customScrollBox">
-    <div class="container">
-      <div class="content document"> <a id="popupContactClose"><img src="images/cross.png" width="20" alt="" /></a>
-        <h1>Kontakt</h1>
-        <p>Wir freuen uns auf Ihre Nachricht!</p>
-        <form method="post">
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" required placeholder="Name" />
-          <label for="name">Betreff:</label>
-          <input type="text" name="subject" id="subject" required placeholder="Betreff" />
-          <label for="email">E-mail:</label>
-          <input type="email" name="email" id="email" required placeholder="email@tld.com" />
-          <label for="message">Nachricht:</label>
-          <textarea name="message" id="message" required></textarea>
-          <input type="submit" value="Send Message" />
-        </form>
-        <br />
-        <!--<iframe width="425" height="300" class="map" src="http://maps.google.com/maps?hl=en&amp;q=701+first+ave+sunnyvale+ca&amp;ie=UTF8&amp;hq=&amp;hnear=701+1st+Ave,+Sunnyvale,+California+94089&amp;z=14&amp;ll=37.416883,-122.026022&amp;output=embed"></iframe>-->
-        <div id="social-network"> <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a> <a href="#" target="_blank"><img src="images/flickr.png" alt="Flicker" /></a> <a href="#" target="_blank"><img src="images/linkedin.png" alt="Linkedin" /></a> <a href="#" target="_blank"><img src="images/myspace.png" alt="Myspace" /></a> <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a> </div>
-      </div>
-    </div>
-    <div class="dragger_container">
-      <div class="dragger"></div>
-    </div>
-    <a class="scrollUpBtn" href="#"></a> <a class="scrollDownBtn" href="#"></a> </div>
-</article>
+
 
 
 <!-- NEWS -->
@@ -647,17 +620,32 @@
       <div class="content document"> <a id="popupContactClose"><img src="images/cross.png" width="20" alt="" /></a>
         <h1>Kontakt</h1>
         <p></p>
-        <form method="post">
-          <label for="name">Name:</label>
-          <input type="text" name="name" id="name" required placeholder="Name" />
-          <label for="name">Subject:</label>
-          <input type="text" name="subject" id="subject" required placeholder="Subject" />
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" required placeholder="email@example.com" />
-          <label for="message">Message:</label>
-          <textarea name="message" id="message" required></textarea>
-          <input type="submit" value="Send Message" />
-        </form>
+        <form action="send.php" id="contact-form" class="form" method="post">
+        <ul>  
+          <li>
+            <p>Name <em>(*)</em></p>
+            <input name="name" type="text" class="requiredField" />
+          </li>
+          <li>
+            <p>E-mail <em>(*)</em></p>
+            <input name="email" type="text" class="requiredField email" />
+          </li>
+          <li>
+            <p>URL <em>(Optional)</em></p>
+            <input name="url" type="text" />
+          </li>
+          <li class="textarea">
+            <p>Nachricht <em>(*)</em></p>
+            <textarea name="message" rows="20" cols="30" class="requiredField"></textarea>
+          </li>
+          <li class="submit-button">
+            <input name="submit" id="submitted" value="Jetzt senden" class="submit" type="submit" />
+          </li>
+        </ul>
+        
+        
+        
+      </form>
         <br />
         <!--<iframe width="425" height="300" class="map" src="http://maps.google.com/maps?hl=en&amp;q=701+first+ave+sunnyvale+ca&amp;ie=UTF8&amp;hq=&amp;hnear=701+1st+Ave,+Sunnyvale,+California+94089&amp;z=14&amp;ll=37.416883,-122.026022&amp;output=embed"></iframe>-->
         <div id="social-network"> <a href="#" target="_blank"><img src="images/facebook.png" alt="Facebook" /></a> <a href="#" target="_blank"><img src="images/flickr.png" alt="Flicker" /></a> <a href="#" target="_blank"><img src="images/linkedin.png" alt="Linkedin" /></a> <a href="#" target="_blank"><img src="images/myspace.png" alt="Myspace" /></a> <a href="#" target="_blank"><img src="images/twitter.png" alt="Twitter" /></a> </div>

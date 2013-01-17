@@ -205,7 +205,7 @@ textarea {
 }
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333333;
@@ -602,7 +602,7 @@ h4,
 h5,
 h6 {
   margin: 10px 0;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-weight: normal;
   line-height: 20px;
   color: inherit;
@@ -873,7 +873,7 @@ input,
 button,
 select,
 textarea {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 label {
   display: block;
@@ -3278,7 +3278,7 @@ input[type="submit"].btn.btn-mini {
 .navbar-search .search-query {
   margin-bottom: 0;
   padding: 4px 14px;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 13px;
   font-weight: normal;
   line-height: 1;
@@ -4646,7 +4646,7 @@ body {
   margin: 0px;
   padding: 0px;
   background: #000000;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 h1,
 h2,
@@ -4654,7 +4654,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
 }
 a:link,
 a:visited,
@@ -4676,7 +4676,7 @@ hgroup h1 {
   text-shadow: #000000 3px 2px 0;
 }
 hgroup h4 {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 22px;
   font-weight: normal;
   margin: 0px;
@@ -4722,7 +4722,7 @@ hgroup a:hover {
   padding: 10px;
   background: url(../images/fs_img_g_bg.png);
   color: #FFF;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   text-transform: uppercase;
   font-size: 23.9px;
   letter-spacing: 1px;
@@ -4845,7 +4845,7 @@ ul.menu {
   margin-top: 10px;
   padding: 0;
   list-style: none;
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   font-size: 14px;
   width: %;
   position: absolute;
@@ -5024,11 +5024,11 @@ article {
 #popupContact h1,
 #popupNews h1 {
   text-align: left;
-  font-size: 22.5px;
+  font-size: 32.5px;
   letter-spacing: 1px;
   padding: 0px 0px 20px 30px;
   margin: 0;
-  color: #ed1c24;
+  color: #e47246;
   text-transform: uppercase;
   background: url(../images/star.png) no-repeat 0px 8px;
   font-weight: bold;
@@ -5091,13 +5091,13 @@ article {
 
 }
 form {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   width: 350px;
   margin-left: 25px;
 }
 input,
 textarea {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
   background-color: #fff;
   border: 1px solid #ccc;
   width: 300px;
