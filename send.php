@@ -10,8 +10,7 @@
   <meta name="robots" content="All" /> 
   <meta name="author" content="Serge Davidov, sd@kreativkombinat.de" />
 
-<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
-<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+<link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 
 <link rel="icon" href="images/favicon.ico" />
 <script type="text/javascript">
@@ -53,7 +52,7 @@ mail($email_to, "Nachricht via das Kontaktformular", $text, $headers);
 <h2>Vielen Dank f&uuml;r Ihre Nachricht.</h2>
 <h3>Wir werden uns umgehend um Ihr Anliegen k&uuml;mmern oder wenn gew&uuml;nscht, bei Ihnen melden.</h3>
 
-<h3>Ihr KREATIVKOMBINAT</h3>
+<h3>Eure S-Bar in Augsburg</h3>
 </div>
 
 </body>
