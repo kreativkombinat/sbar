@@ -369,7 +369,7 @@ article {
     text-align: left;
     font-size: @fontSizeLarge + 15;
     letter-spacing: 1px;
-    padding: 0px 0px 20px 30px;
+    padding: 0px 0px 40px 50px;
     margin: 0;
     color: @orange;
     text-transform: uppercase;
@@ -425,7 +425,7 @@ article {
 form {
     font-family: @sansFontFamily;
     width: 350px;
-    margin-left: 25px;
+    margin-left: 0px;
 }
 input, textarea {
     font-family: @sansFontFamily;
@@ -594,5 +594,22 @@ body.tnx  {
     -khtml-border-radius: 5px;
     border-radius: 5px;
     text-align: center;
+    text-transform: uppercase;
+}
+
+input[type="submit"] {
+    color: white;
+    text-transform: uppercase;
+    font-size: @fontSizeSmall + 9;
+    background: @orange;
+}
+
+textarea {
+    min-height: 100px;
+    resize: none;
+    color: @gray;
+}
+
+label {
     text-transform: uppercase;
 }
