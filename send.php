@@ -29,7 +29,7 @@
 
 </head>
 
-<body>
+<body class="tnx">
 
 <?php
 $email_to = "info@kreativkombinat.de";
@@ -47,12 +47,20 @@ $headers .= "From: <$email>" . "\r\n";
 mail($email_to, "Nachricht via das Kontaktformular", $text, $headers);
 ?>
 
-<div class="section-title home">
+
+
+<div class="danke">
+
+ <div>
+  <a href="/">
+    <img src="images/logo.png" title="S-BAR sushi &amp; cocktails" alt="S-BAR sushi &amp; cocktails" />
+  </a>
+</div>
 
 <h2>Vielen Dank f&uuml;r Ihre Nachricht.</h2>
-<h3>Wir werden uns umgehend um Ihr Anliegen k&uuml;mmern oder wenn gew&uuml;nscht, bei Ihnen melden.</h3>
+<p>Wir werden uns umgehend um Ihr Anliegen k&uuml;mmern oder wenn gew&uuml;nscht, bei Ihnen melden.</p>
 
-<h3>Eure S-Bar in Augsburg</h3>
+<p>Eure S-Bar in Augsburg</p>
 </div>
 
 </body>

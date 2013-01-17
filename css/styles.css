@@ -5242,3 +5242,23 @@ h4 {
   background-color: #E47246;
   padding: 10px;
 }
+body.tnx {
+  background-color: #e47246;
+  background-image: url(../images/dotted.png);
+}
+.danke {
+  border: 0px solid red;
+  width: 960px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  font-size: 15.9px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
