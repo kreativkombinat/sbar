@@ -5289,3 +5289,19 @@ textarea {
 label {
   text-transform: uppercase;
 }
+@media only screen and (max-device-width: 480px) {
+  body {
+    background: white !important;
+  }
+  #thumbnails_wrapper {
+    display: none !important;
+  }
+}
+@media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    background: white !important;
+  }
+  #thumbnails_wrapper {
+    display: none !important;
+  }
+}
