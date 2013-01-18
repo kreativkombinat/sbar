@@ -5307,6 +5307,18 @@ label {
     width: 50%;
     height: 50%;
   }
+  ul.menu {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    width: %;
+    position: absolute;
+    top: 0%;
+    left: 10px;
+  }
 }
 @media only screen and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
   body {
@@ -5325,5 +5337,17 @@ label {
     border: 0px solid red;
     width: 50%;
     height: 50%;
+  }
+  ul.menu {
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    width: %;
+    position: absolute;
+    top: 0%;
+    left: 10px;
   }
 }
