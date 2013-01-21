@@ -1,4 +1,19 @@
-//KREATIVKOMBINAT GbR //www.kreativkombinat.de //info@kreativkombinat.de					
+//KREATIVKOMBINAT GbR //www.kreativkombinat.de //info@kreativkombinat.de	
+
+/***************************************************
+       ACCORDION
+***************************************************/
+$(document).ready(function(){ 
+  $('.trigger-button').click(function() {
+    $(".trigger-button").removeClass("active")
+    $('.accordion').slideUp('normal');
+    if($(this).next().is(':hidden') == true) {
+      $(this).next().slideDown('normal');
+      $(this).addClass("active");
+     } 
+   });
+  $('.accordion').hide();
+});				
 
 //About
 			var popupAboutStatus = 0;

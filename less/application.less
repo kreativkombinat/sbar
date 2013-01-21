@@ -889,16 +889,92 @@ label {
     -webkit-box-shadow: 0px 0px 4px #000;
     -moz-box-shadow: 0px 0px 4px #000;
     box-shadow: 0px 0px 4px #000;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -o-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -khtml-border-radius: 0px;
+    border-radius: 0px;
+    margin-top: 120px;
+    visibility: hidden;
+}
+    .image {
+        display: none;
+    }
+
+    #popupAbout h1, #popupSpeisekarte h1, #popupContact h1, #popupNews h1 {
+    background: transparent;
+    color: #E47246;
+    font-size: @fontSizeSmall + 5;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0px;
+    text-align: left;
+    text-transform: uppercase;
+}
+}
+
+
+
+
+
+
+
+
+
+
+/* Accordion */
+
+.trigger-button {
+    float: left;
+    width: 100%;
+    padding: 0px 0px 0px 10px;
+    margin-bottom: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    background: url(../images/bullet-toggle.png) no-repeat right 10px #efefef;
+    cursor:pointer;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -o-border-radius: 5px;
     -ms-border-radius: 5px;
     -khtml-border-radius: 5px;
     border-radius: 5px;
-    margin-top: 300px;
-    visibility: hidden;
+    color: @grayDarker;
+    text-transform: uppercase;
+    line-height: @baseLineHeight + 10;
 }
-    .image {
-        display: none;
-    }
+
+.trigger-button:hover {
+    background: url(../images/bullet-toggle.png) no-repeat right 10px #cccccc;
+    color: #666666;
+}
+
+.trigger-button span {
+    padding-left: 10px;
+    font-size: @fontSizeSmall;
+}
+
+.trigger-button.active { 
+    background: url(../images/bullet-toggle.png) no-repeat right -25px #f4f4f4;
+    color: #666666;
+}
+
+.accordion {
+    float: left;
+    padding: 10px;
+    -moz-border-radius: 6px; 
+    -webkit-border-radius: 6px; 
+    -o-border-radius: 6px; 
+    -ms-border-radius: 6px; 
+    -khtml-border-radius: 6px; 
+    border-radius: 6px;
+    border: 1px solid #f4f4f4;
+    margin: 0px 0px 10px 0px;
+}
+
+.accordion h4 {
+    font-size: 2em !important;
+    text-shadow: none;
 }
