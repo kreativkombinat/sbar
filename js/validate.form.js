@@ -55,7 +55,9 @@
 	                success:    function(html) {
 	                    jQuery("#contact_form").slideUp("slow")
 	                    jQuery("#submit_button").attr("disabled", "disabled");
-	                    jQuery("#contact_form").after("<h3 class='center' id='send_message'>Message Sent!</h3>");
+	                    jQuery("#contact_form").after("<h3 class='center' id='send_message'>Vielen Dank f&uuml;r Ihre Nachricht.<br />
+Wir werden uns umgehend um Ihr Anliegen k&uuml;mmern oder wenn gew&uuml;nscht, bei Ihnen melden.<br />
+Euer SushiBar-Team</h3>");
 	                    jQuery("#send_message").fadeIn("slow");
 	                }
 	            });
