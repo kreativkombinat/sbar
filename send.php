@@ -13,23 +13,10 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css" media="screen" />
 
 <link rel="icon" href="images/favicon.ico" />
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-10614277-17']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 
 </head>
 
-<body class="tnx">
+<body>
 
 <?php
 $email_to = "info@kreativkombinat.de";
@@ -44,22 +31,6 @@ $headers .= "Content-type:text/html; charset=utf-8" . "\r\n";
 $headers .= "From: <$email>" . "\r\n";
 mail($email_to, "Nachricht via das Kontaktformular", $text, $headers);
 ?>
-
-
-
-<div class="danke">
-
- <div>
-  <a href="/">
-    <img src="images/logo.png" title="S-BAR sushi &amp; cocktails" alt="S-BAR sushi &amp; cocktails" />
-  </a>
-</div>
-
-<h2>Vielen Dank f&uuml;r Ihre Nachricht.</h2>
-<p>Wir werden uns umgehend um Ihr Anliegen k&uuml;mmern oder wenn gew&uuml;nscht, bei Ihnen melden.</p>
-
-<p>Eure S-Bar in Augsburg</p>
-</div>
 
 </body>
 </html>
