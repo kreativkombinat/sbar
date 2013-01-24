@@ -49,7 +49,7 @@
 	            jQuery("#loader").css("display","block");
 	            jQuery.ajax({
 	                type:       "POST",
-	                url:        "contact.php",
+	                url:        "send.php",
 	                cache:      false,
 	                data:        "name=" + name +"&email="+email+"&message="+message,
 	                success:    function(html) {
