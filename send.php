@@ -35,7 +35,6 @@
 $email_to = "info@kreativkombinat.de";
 $name = $_POST["name"];
 $email = $_POST["email"];
-$url = $_POST["url"];
 $message = $_POST["message"];
 $text = "NAME: $name<br>
          EMAIL: $email<br>
