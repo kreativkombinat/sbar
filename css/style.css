@@ -339,8 +339,8 @@ opacity: 1 !important;
 }
 	
 #side #nav ul .nav_2 span {
-	height: 16px;
-	background: url(../images/nav.png) right -47px no-repeat;
+	height: 18px;
+	background: url(../images/nav.png) right -45px no-repeat;
 }
 	
 #side #nav ul .nav_3 span {
@@ -354,7 +354,7 @@ opacity: 1 !important;
 }
 	
 #side #nav ul .nav_5 span {
-	height: 16px;
+	height: 22px;
 	background: url(../images/nav.png) bottom right no-repeat;
 }
 	
@@ -504,7 +504,7 @@ opacity: 1 !important;
 .food {
 	text-transform: uppercase;
 	padding: 0px;
-	font-size: 1.4em;
+	font-size: 1.0em;
 }
 
 .vegan {
@@ -519,7 +519,7 @@ opacity: 1 !important;
 
 .preis {
 	text-transform: uppercase;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -530,7 +530,7 @@ opacity: 1 !important;
 
 .ta {
 	background: orange;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -540,7 +540,7 @@ opacity: 1 !important;
 
 .tap {
 	background: orange;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -549,12 +549,11 @@ opacity: 1 !important;
 
 .menge {
 	background: orange;
-	padding: 10px;
+	padding: 5px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
 	text-align: center;
-	min-width: 50px;
 }
 
 #food table,
@@ -568,6 +567,11 @@ opacity: 1 !important;
 #drinks td {
 	border: 0px solid red;
 
+}
+
+.label {
+	text-transform: none;
+	font-size: 0.8em !important;
 }
 
 sup {
