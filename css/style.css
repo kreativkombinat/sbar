@@ -669,15 +669,6 @@ sup {
 #social .twitter a {
 	background: url(../images/icons/social_twitter.png) top left no-repeat;
 }
-#social .flickr a {
-	background: url(../images/icons/social_flickr.png) top left no-repeat;
-}
-#social .dribbble a {
-	background: url(../images/icons/social_dribbble.png) top left no-repeat;
-}
-#social .linkedin a {
-	background: url(../images/icons/social_linkedin.png) top left no-repeat;
-}
 		
 /* No More */
 
@@ -707,8 +698,4 @@ h5 {
 	padding-right: 30px;
 	margin-bottom: 0;
 	text-align: right;
-}
-
-.backstretch {
-	background: url(../images/dotted.png) repeat scroll 0 0 transparent;
 }
