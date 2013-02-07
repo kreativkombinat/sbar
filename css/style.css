@@ -14,7 +14,7 @@
 	height: 1%;
 }
 	
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, th, td {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -32,7 +32,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 ins, a { text-decoration: none; }
 a, input[type=submit], button[type=submit] { cursor: pointer; }
 del { text-decoration: line-through; }
-table { border-collapse: collapse; border-spacing: 0; }
+
 	
 	
 	
@@ -504,13 +504,17 @@ opacity: 1 !important;
 .food {
 	text-transform: uppercase;
 	padding: 0px;
+	font-size: 1.4em;
 }
 
 .vegan {
-    background-image: url("../images/vegan.png");
+    background: url("../images/vegan.png") #796a44;
     background-position: center center;
     background-repeat: no-repeat;
     padding: 0 40px 15px 0;
+    border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
 }
 
 .preis {
@@ -519,34 +523,56 @@ opacity: 1 !important;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
-	background: #333333;
+	background: white;
+	color: black;
+	text-align: center;
 }
 
 .ta {
 	background: orange;
-	padding: 0px 10px 0px 10px;
+	padding: 10px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 .tap {
-	background: red;
-	padding: 0px 10px 0px 10px;
+	background: orange;
+	padding: 10px;
 	border-radius: 3px;
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
+	text-align: center;
 }
 
-#food table {
-	border: 0px solid red;
+.menge {
+	background: orange;
+	padding: 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	text-align: center;
+	min-width: 50px;
+}
+
+#food table,
+#drinks table {
 	border-spacing: 3px;
 	border-collapse: separate;
 }
 
-#food td {
+
+#food td,
+#drinks td {
 	border: 0px solid red;
-	border-spacing: 3px;
+
+}
+
+sup {
+	vertical-align:top;
+	font-size:0.8em;
 }
 			
 /* Pricing */
