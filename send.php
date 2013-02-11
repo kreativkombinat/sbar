@@ -1,5 +1,5 @@
 <?php
-$email_to = "info@kreativkombinat.de";
+$email_to = "info@sushi-ist-sbar.de";
 $name = $_POST["name"];
 $email = $_POST["email"];
 $message = $_POST["message"];
