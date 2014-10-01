@@ -1947,18 +1947,22 @@
 	<a href="#main" class='jump'>Top</a>
 	<!-- END .jump -->
 
-	<!-- Piwik -->
+<!-- Piwik -->
 <script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://admin.kreativkombinat.de/piwik/" : "http://admin.kreativkombinat.de/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 78);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://admin.kreativkombinat.de/piwik/piwik.php?idsite=78" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tracking Code -->
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//tkr.ade25.de/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 78]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//tkr.ade25.de/piwik.php?idsite=78" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+
 
 </body>
 
