@@ -26,7 +26,7 @@
                       'from_email': email,
                       'to': [
                           {
-                            'email': 'info@kreativkombinat.de',
+                            'email': 'info@sushi-ist-sbar.de',
                             'name': 'SushiBar',
                             'type': 'to'
                           }
