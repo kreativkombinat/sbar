@@ -16,6 +16,7 @@
 	<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/responsive.css">
 	<link rel="stylesheet" type="text/css" media="all" href="css/prettyPhoto.css">
+	<link rel="stylesheet" type="text/css" href="css/cookieconsent.min.css">
 	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 	
 	<!-- BODY FONTS -->
@@ -46,6 +47,31 @@
 	<script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
 	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 	<script type="text/javascript" src="js/modernizr-transitions.js"></script>
+	<script type="text/javascript" src="js/cookieconsent.min.js"></script>
+
+	<!-- Cookie Consent -->
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#252e39"
+        },
+        "button": {
+          "background": "#ff9900"
+        }
+      },
+      "theme": "edgeless",
+  	  "position": "bottom-right",
+      "content": {
+    "message": "Wir verwenden Cookies, um sicherzustellen, dass Sie die bestmögliche Erfahrung auf unserer Website machen.",
+    "dismiss": "OK",
+    "link": "Mehr Info",
+    "href": "https://sushi-ist-sbar.de/#impressum"
+  }
+    })});
+    </script>
+    <!-- End of Cookie Consent -->
 		
 </head>
 
@@ -90,7 +116,7 @@
 		<div id="content">
 			<!-- #profile -->
 			<div id="profile" class="panel">
-				<img id="photo" alt="SushiBar" src="images/montag-closed.jpg">
+				<img id="photo" alt="SushiBar" src="images/intro.jpg">
 
 				
 						<!--<div class="in">
